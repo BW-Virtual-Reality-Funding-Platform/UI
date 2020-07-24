@@ -46,3 +46,54 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html{
+	font-size: 62.5%;
+	background: #303030;
+	color: white;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+}
+
+header div{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header div h1{
+	font-size: 2rem;
+	padding-right: 2rem;
+}
+
+header div img{
+	height: 10rem;
+	padding-top: 1rem;
+}
+
+header nav{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+}
+
+header nav a{
+	text-decoration: none;
+	color:white;
+	padding: 1rem;
+	font-size: 1.8rem;
+}
+
+.intro img{
+	height: 32;
+	width: 100%;
+}
