@@ -79,7 +79,7 @@ header div h1{
 }
 
 header div img{
-	height: 10rem;
+	width: 35%;
 	padding-top: 1rem;
 }
 
@@ -111,7 +111,6 @@ a{
 
 .intro img{
 	margin-top: 2rem;
-	height: 25rem;
 	width: 90%;
 	border-radius: 1rem;
 	align-self: center;
@@ -130,7 +129,7 @@ a{
 }
 
 .intro div h3{
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	padding: .5rem 0rem;
 	opacity: 65%;
 }
