@@ -157,3 +157,24 @@ a{
 .social a:hover{
 	transform: scale(1.3);
 }
+
+.intro div nav{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.intro div nav button{
+	color: aquamarine;
+	font-family: "Helvetica";
+	font-size: 1.4rem;
+	background-color: transparent;
+	border: 0.1rem aquamarine solid;
+	border-radius: 0.3rem;
+	width: 7rem;
+	height: 2rem;
+}
+
+.intro div nav button:active{
+	color:aqua;
+	border-color: aqua;
+}
