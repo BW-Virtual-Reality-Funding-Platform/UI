@@ -73,6 +73,10 @@ p{
 	padding: 2rem 0rem;
 }
 
+span{
+	color: lightpink;
+}
+
 header{
 	display: flex;
 	flex-direction: column;
