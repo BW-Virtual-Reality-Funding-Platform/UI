@@ -142,10 +142,11 @@ a{
 	margin-top: 2rem;
 }
 
-.page-nav{
-	flex-direction: row;
+.social{
+	display: flex;
+	justify-content: space-evenly;
 }
 
-.page-nav a {
-	font-size: 1.2rem;
+.social a{
+	width: 8%;
 }
