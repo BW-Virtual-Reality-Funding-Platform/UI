@@ -72,7 +72,7 @@ h1{
 
 h1:hover{
 	color: aqua;
-	-webkit-transition: color 1s;
+	-webkit-transition: 1s;
 }
 
 h2{
@@ -81,12 +81,23 @@ h2{
 	color: aqua;
 }
 
+h2:hover{
+	color
+	-webkit-transition: ;
+}
+
 p{
 	padding: 2rem 0rem;
 }
 
 span{
 	color: lightpink;
+}
+
+img:hover{
+	-webkit-transition: 1s;
+	-moz-box-shadow: 0 0 10px aquamarine;
+	-webkit-box-shadow: 0 0 10px aquamarine; 
 }
 
 #image2{
@@ -107,6 +118,7 @@ header div{
 }
 
 header div img{
+	border-radius: 100%;
 	width: 30%;
 	padding-top: 1rem;
 }
@@ -189,6 +201,7 @@ footer{
 }
 
 .social a img{
+	border-radius: 0.5rem;
 	width: 55%;
 }
 .social a:hover{
