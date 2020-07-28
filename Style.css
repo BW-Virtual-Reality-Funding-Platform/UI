@@ -70,6 +70,11 @@ h1{
 	font-family: 'Gayathri', sans-serif;
 }
 
+h1:hover{
+	color: aqua;
+	-webkit-transition: color 1s;
+}
+
 h2{
 	font-size: 4rem;
 	padding: 1rem 0rem;
@@ -116,6 +121,8 @@ header div img{
 
 .page-nav a:hover{
 	transform: scale(1.3);
+	color: darkcyan;
+	-webkit-transition: 1s;
 }
 
 a{
