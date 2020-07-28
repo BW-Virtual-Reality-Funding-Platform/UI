@@ -221,8 +221,10 @@ footer p{
 .team{
 	padding: 2rem 0rem;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	flex-wrap: nowrap;
 	justify-content: center;
+	align-items: center;
 	border-top: rgba(112, 112, 112, 0.5) solid 0.3rem;
 }
 
@@ -231,6 +233,8 @@ footer p{
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
+	border: solid red 0.1rem;
+	flex-wrap: wrap;
 }
 
 .team div h3{
@@ -321,5 +325,16 @@ footer p{
 
 	footer p{
 		font-size: 1.3rem;
+	}
+
+	.team div img{
+		width: 30rem;
+	}
+
+	.content{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
 	}
 }
