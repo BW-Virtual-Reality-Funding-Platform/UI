@@ -128,7 +128,8 @@ a{
 	color: aquamarine;
 }
 
-.footer{
+footer{
+	padding-top: 2rem;
 	border-top: aquamarine solid 0.3rem;
 	display: flex;
 	flex-direction: column;
@@ -170,7 +171,7 @@ a{
 
 .social{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: stretch;
 }
 
@@ -213,6 +214,10 @@ footer p{
 	font-size: 1.1rem;
 }
 
+#first{
+	border: none;
+}
+
 .team{
 	padding: 2rem 0rem;
 	display: flex;
@@ -229,8 +234,9 @@ footer p{
 }
 
 .team div h3{
-	font-size: 3rem;
-	padding: 1.5rem 0rem;
+	font-size: 3.5rem;
+	padding-top: 6rem;
+	padding-bottom: 1rem;
 	color: lightpink;
 }
 
@@ -245,9 +251,6 @@ footer p{
 	width: 3.5rem;
 }
 
-.footer {
-	padding: 10rem 0rem;
-}
 
 @media(min-width: 500px){
 	body{
@@ -271,8 +274,12 @@ footer p{
 		width: 17rem;
 	}
 
-	.social a{
-		width: 4rem;
+	.social a img{
+		width: 3rem;
+	}
+
+	.team div nav a img{
+		width: 5rem;
 	}
 }
 
