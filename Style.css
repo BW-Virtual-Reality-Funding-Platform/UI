@@ -73,6 +73,7 @@ h1{
 h1:hover{
 	color: aqua;
 	-webkit-transition: 1s;
+	text-shadow: 0 0 100px seagreen;
 }
 
 h2{
@@ -82,8 +83,13 @@ h2{
 }
 
 h2:hover{
-	color
-	-webkit-transition: ;
+	color: seagreen;
+	-webkit-transition: 1s;
+}
+
+h3:hover{
+	color: palevioletred;
+	-webkit-transition: 1s;
 }
 
 p{
@@ -118,9 +124,10 @@ header div{
 }
 
 header div img{
-	border-radius: 100%;
+	align-items: center;
+	border-radius: 50%;
 	width: 30%;
-	padding-top: 1rem;
+	margin-top: 1rem;
 }
 
 .page-nav{
@@ -269,11 +276,11 @@ footer p{
 .team div img{
 	width: 60%;
 	border-radius: 50%;
-	padding: 1rem 0rem;
+	margin: 1rem 0rem;
 }
 
 .team div nav a img{
-	border-radius: 0.3rem;
+	border-radius: 0.5rem;
 	width: 3.5rem;
 }
 
