@@ -91,6 +91,7 @@ span{
 header{
 	display: flex;
 	flex-direction: column;
+	border-bottom: aquamarine solid 0.3rem;
 }
 
 header div{
@@ -127,11 +128,17 @@ a{
 	color: aquamarine;
 }
 
-.intro, footer{
+.footer{
 	border-top: aquamarine solid 0.3rem;
 	display: flex;
 	flex-direction: column;
 	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro{
+	display: flex;
+	flex-direction: column;
 }
 
 .intro img{
@@ -163,11 +170,17 @@ a{
 
 .social{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	align-items: stretch;
 }
 
 .social a{
-	width: 9%;
+	display: flex;
+	justify-content: center;
+}
+
+.social a img{
+	width: 55%;
 }
 .social a:hover{
 	transform: scale(1.3);
@@ -198,6 +211,42 @@ footer p{
 	text-align: center;
 	padding-top: 6rem;
 	font-size: 1.1rem;
+}
+
+.team{
+	padding: 2rem 0rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-top: rgba(112, 112, 112, 0.5) solid 0.3rem;
+}
+
+.team div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.team div h3{
+	font-size: 3rem;
+	padding: 1.5rem 0rem;
+	color: lightpink;
+}
+
+.team div img{
+	width: 60%;
+	border-radius: 50%;
+	padding: 1rem 0rem;
+}
+
+.team div nav a img{
+	border-radius: 0.3rem;
+	width: 3.5rem;
+}
+
+.footer {
+	padding: 10rem 0rem;
 }
 
 @media(min-width: 500px){
