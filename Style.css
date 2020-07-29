@@ -83,8 +83,9 @@ h2{
 }
 
 h2:hover{
-	color: seagreen;
+	color: white;
 	-webkit-transition: 1s;
+	text-shadow: 0 0 5px aqua;
 }
 
 h3:hover{
@@ -280,7 +281,7 @@ footer p{
 }
 
 .team div nav a img{
-	border-radius: 0.5rem;
+	border-radius: 0.7rem;
 	width: 3.5rem;
 }
 
